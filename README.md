@@ -6,6 +6,8 @@ This project is a Flutter signup application developed using Dart. The applicati
 
 The application also includes a Local Signup Coach that provides preset signup tips. This feature runs completely on the device without connecting to an external AI service or server.
 
+**Student Name:** Greena Nisheethkumar Patel  
+**Panther ID:** 002986028
 **Track:** Graduate  
 **Selected Tasks:** Task A — Local AI Signup Coach Simulation and Task C — Confirm & Celebrate  
 **Framework:** Flutter  
@@ -103,9 +105,11 @@ The application was tested using a simulator.
 | Simulate missing tip data | Local error message displayed | Passed |
 | Disable missing-tip simulation and retry | Preset tip displayed again | Passed |
 | Submit valid practice signup | Personalized welcome screen | Passed |
-| Submit mismatched passwords | Submission blocked | passed |
+| Submit mismatched passwords | Submission blocked | Passed |
 
-The screenshots show that the application displays the expected local-tip error and successfully recovers when the Retry button is used.
+During testing, the application displayed the expected local-tip error and successfully recovered when the Retry button was used.
+
+The mismatched-password test also confirmed that the form blocks submission when the password and confirm-password fields contain different values.
 
 ## Graduate Critical Thinking Questions
 
